@@ -1,0 +1,182 @@
+main {
+    padding-bottom: 3em;
+    flex: 1;
+  }
+  
+  @font-face {
+    font-family: 'helv';
+    src: url('fonts/file/helvetica.eot'); /* IE9 Compat Modes */
+    src: url('fonts/file/helvetica.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/file/helvetica.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/file/helvetica.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/file/helvetica.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fonts/file/helvetica.svg#svghelvetica') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+    font-family: 'souv';
+    src: url('fonts/souv/SouvenirBold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/souv/SouvenirBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/souv/SouvenirBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/souv/SouvenirBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/souv/SouvenirBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fonts/souv/SouvenirBold.svg#svgSouvenirBold') format('svg'); /* Legacy iOS */
+  }
+  
+  h1, h2, p {
+    font-family: 'Product Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  h1, h2, h3 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+  }
+  h1 {
+    font-size: 18.5rem;
+  }
+  
+  body {
+    color: #171717;
+    background-color: #f2f2f2;
+    font-size: 1.1em;
+  }
+  /* how to make specific words colored in a p tag*/
+  mark.a {
+    color: #6CB2D1;
+    background: none;
+  }
+  mark.b {
+    color: #8DA290;
+    background: none;
+  }
+  mark.c {
+    color: rgb(255, 192, 34);
+    background: none;
+  }
+  
+  mark.d {
+    font-family: 'souv';
+    word-spacing: -5px;
+    background: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .bobthebuilder {
+    font-family: 'helv';
+    font-weight: 100;
+  
+  }
+  
+  .thepartyneverends {
+    font-family: 'souv';
+    word-spacing: -5px;
+  }
+  
+  .legacy {
+    font-family: 'Product Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+  
+  /* vetical center code found on: https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
+  .center-vertical {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .button {
+    background-color: #a5d5ff;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .button1 {border-radius: 3px}
+  
+  .button:hover {
+    background-color: #51aeff;
+  }
+  /* top nav bar inspired entirely by @aeloyus, can be found at aeloy.us*/
+  ul {
+  padding-top: 0.2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+  
+  li {
+  padding-right: 1em;
+  }
+  
+  li:hover {
+  color: #ff906b;
+  }
+  
+  ul.circle {
+  list-style-type: circle;
+  }
+  
+  ul.square {
+  list-style-type: circle;
+  }
+  
+  /*this was also straight up boonked from aeolyus as well, @aeloyus, aeloy.us*/
+  /* Hide scrollbar */
+  html { scrollbar-width: none; }
+  ::-webkit-scrollbar { display: none; }
+  
+  /* Custom highlight color */
+  ::selection {
+    color: #f2f2f2;
+    background: #DF9881;
+  }
+  
+  /*a.underline {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #E18728;
+    text-decoration-color: #E18728; 
+  }
+  
+  a.underline:visited {
+    -webkit-text-decoration-color: #94530D;
+    text-decoration-color: #94530D; 
+  }
+  
+  a.underline:hover { 
+    -webkit-text-decoration-color: #28B1E1;
+    text-decoration-color: #28B1E1; 
+  }
+  
+  a.underline:active {
+    -webkit-text-decoration-color: #006E94;
+    text-decoration-color: #006E94; 
+  }*/
+  
